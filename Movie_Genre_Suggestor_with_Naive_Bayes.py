@@ -34,7 +34,7 @@ from sklearn.model_selection import StratifiedGroupKFold
 # data types, and missing values.
 
 # Define the dataset path
-data_path = "C:/Project/Data/ml-latest-small/movies.csv"
+data_path = "/movies.csv"
 
 # Load the movie dataset
 data = pd.read_csv(data_path)
